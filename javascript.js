@@ -72,5 +72,5 @@ function estorno(e){
 }
 
 function planilha(e){
-    tableToExcel.convert(document.getElementById('table'))
+    tableToExcel.convert(document.getElementById('export'))
 }
