@@ -9,6 +9,7 @@ header{
     background-color: black;
     color: aliceblue;
     text-align: center;
+    font-family: sans-serif;
 }
 
 header ul li{
@@ -17,6 +18,7 @@ header ul li{
 
 section form ul li {
     list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 section form ul li label{
@@ -24,6 +26,7 @@ section form ul li label{
 }
 
 section{
+    font-family: sans-serif;
     margin-top: 1%;
     display: flex;
     justify-content: center;
@@ -33,6 +36,12 @@ section{
 section button{
     margin: 5px;
     font-size: 20px;
+    border-radius: 6px;
+    transition: transform 0.5s;
+}
+
+section button:hover{
+    transform:  scale(1.05);
 }
 
 table, th, td{
